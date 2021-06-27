@@ -24,6 +24,142 @@
                     </h1>
                     <div class="margin-y-3 padding-x-9">
                         <a href="#" class="usa-button margin-right-0" aria-controls="modal" data-open-modal>Оставить заявку</a>
+                        
+
+                       <!--начала проекта-->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Запустить модальное окно
+  </button>
+
+  <div id="exampleModalLive" class="modal fad__show" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: block; padding-right: 16px;"></div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <popup class="popup__class"></popup>
+<button class="$theme-modal-border-radius" data-close-modal></button>
+
+                       <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Запустить модальное окно
+                      </button>
+                      
+                      <!-- Modal -->
+                      <!--div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div-->
+                
+                                  <div class="modal form__container">
+                                    
+                                    <form class="form__admin">
+                                        <button type="button" class="popup__close"></button>
+                                      <div class="form__main-container">
+                                     
+                                        <h2 class="form__heading">Расскажите о себе</h2>
+                                        <fieldset class="form__input-container form__input-container_ctrl_texts">
+                                          
+                                          <label for="heading" class="form__label">и отправьтесь в космос вместе с NASA!</label>
+                                          <input class="form__item form__item_el_heading" type="text" name="firstname" placeholder="Ваше имя" required>
+                                          <fieldset class="form__input-container form__input-container_ctrl_additional">
+                                          <h3 class="form__heading form__heading_type_ctrl-el-heading">Выберите планеты, которые хотели бы посетить</h3>
+                                         
+
+                                          <label for="planet-mercury" class="form__label form__label_direction_right">
+                                  <input type="checkbox" name="planet" id="planet-mercury" class="form__item form__item_el_extra-options" value="mercury">
+                                           
+                                  <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                  <span class="form__label-text">Меркурий</span></label>
+
+
+
+
+
+
+                                         <label for="planet-venus" class="form__label form__label_direction_right">
+                                  <input type="checkbox" name="planet" id="planet-venus" class="form__item form__item_el_extra-options" value="venus">
+                                            <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                  <span class="form__label-text">Венера</span>
+                                  <label for="planet-mars" class="form__label form__label_direction_right">
+                                    <input type="checkbox" name="planet" id="planet-mars" class="form__item form__item_el_extra-options" value="mars">
+                                              <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                    <span class="form__label-text">Марс</span>
+                                    <label for="planet-jupiter" class="form__label form__label_direction_right">
+                                        <input type="checkbox" name="planet" id="planet-jupiter" class="form__item form__item_el_extra-options" value="jupiter">
+                                                  <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                        <span class="form__label-text">Юпитер</span>
+                                        <label for="planet-saturn" class="form__label form__label_direction_right">
+                                            <input type="checkbox" name="planet" id="planet-saturn" class="form__item form__item_el_extra-options" value="saturn">
+                                                      <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                            <span class="form__label-text">Сатурн</span>
+                                            <label for="planet-uranus" class="form__label form__label_direction_right">
+                                                <input type="checkbox" name="planet" id="planet-uranus" class="form__item form__item_el_extra-options" value="uranus">
+                                                          <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                                <span class="form__label-text">Уран</span>
+                                                <label for="planet-neptune" class="form__label form__label_direction_right">
+                                                    <input type="checkbox" name="planet" id="planet-neptune" class="form__item form__item_el_extra-options" value="neptune">
+                                                              <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                                                    <span class="form__label-text">Нептун</span>
+                                                    <label for="heading" class="form__label">Выберите удобный способ оплаты</label>
+
+
+
+                                                    <label for="cash" class="form__label form__label_direction_right">
+                                                        <input type="radio" name="payment" id="cash" class="form__item form__item_el_number-of-columns" value="cash">
+                                                          <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
+                                                              <span class="form__label-text">наличные</span>
+                                                        </label>
+
+                                          <label for="Bitcoin" class="form__label form__label_direction_right">
+                                                  <input type="radio" name="payment" id="Bitcoin" class="form__item form__item_el_number-of-columns" value="Bitcoin">
+                                               <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
+                                                  <span class="form__label-text">Bitcoin</span>
+                                           </label>
+
+                                           <label for="Dogecoin" class="form__label form__label_direction_right">
+                                            <input type="radio" name="payment" id="Dogecoin" class="form__item form__item_el_number-of-columns" value="Dogecoin">
+                                              <span class="form__pseudo-item form__pseudo-item_type_radio"></span> 
+                                               <span class="form__label-text">Dogecoin</span>
+                                            </label>
+
+                              <label for="Chillim" class="form__label form__label_direction_right">
+                                      <input type="radio" name="payment" id="Chillim" class="form__item form__item_el_number-of-columns" value="Chillim">
+                                   <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
+                                      <span class="form__label-text">Chillim</span>
+                              </label>
+
+                              <button class="popup__button-save" id="edit__button" type="submit">Отправить заявку</button>
+                           
+                             </label>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+
+<!--конец проекта-->
+
+                                          
                     </div>
                 </section>
             </div>
